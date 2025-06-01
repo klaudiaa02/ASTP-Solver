@@ -1,13 +1,13 @@
 # ASTP-Solver in Julia
 
-This project provides a simple implementation of the **Travelling Salesman Problem (TSP)** using the **JuMP** optimization framework and the **GLPK** solver in Julia. 
+This project provides a simple implementation of the **Asymmetric Travelling Salesman Problem (TSP)** using the **JuMP** optimization framework and the **GLPK** solver in Julia. 
 It generates a random distance matrix between cities and finds the optimal tour that minimizes total travel distance.
 
  - **Generates random city distances**
 
 ![image](https://github.com/user-attachments/assets/7a2d3fac-d34d-4558-80e7-032e4bbf927c)
 
- - **Solves the TSP using MILP with JuMP + GLPK**
+ - **Solves the ATSP using MILP with JuMP + GLPK**
  - **Displays the optimal tour and its total distance**
 
 ![image](https://github.com/user-attachments/assets/7f938420-13c7-4d54-b446-f0fcaa214530)
